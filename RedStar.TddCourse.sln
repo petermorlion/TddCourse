@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedStar.TddCourse", "RedStar.TddCourse\RedStar.TddCourse.csproj", "{50ECFC2E-72C9-4B20-86B9-3EC70776AB50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50ECFC2E-72C9-4B20-86B9-3EC70776AB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50ECFC2E-72C9-4B20-86B9-3EC70776AB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50ECFC2E-72C9-4B20-86B9-3EC70776AB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50ECFC2E-72C9-4B20-86B9-3EC70776AB50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C9940CA-A39E-4CD0-A4C6-F4B6C81C1EEA}
+	EndGlobalSection
+EndGlobal
