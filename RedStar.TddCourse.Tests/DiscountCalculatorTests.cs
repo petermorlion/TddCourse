@@ -8,8 +8,8 @@ namespace RedStar.TddCourse.Tests
     {
         private IDiscountCalculator GetDiscountCalculator()
         {
-            //return new DirtyDiscountCalculator();
-            return new TestDrivenDiscountCalculator();
+            //return new DiscountCalculator1();
+            return new DiscountCalculator2();
         }
 
         [Fact]

@@ -2,7 +2,7 @@
 
 namespace RedStar.TddCourse
 {
-    public class DirtyDiscountCalculator : IDiscountCalculator
+    public class DiscountCalculator1 : IDiscountCalculator
     {
         public double CalculateDiscount(Customer customer)
         {
@@ -22,7 +22,7 @@ namespace RedStar.TddCourse
                 {
                     if (DateTime.UtcNow.Year - customer.Birthdate.Year > 40)
                     {
-                        return 20; // unreachable!
+                        return 20;
                     }
                     else
                     {

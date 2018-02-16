@@ -2,7 +2,7 @@
 
 namespace RedStar.TddCourse
 {
-    public class TestDrivenDiscountCalculator : IDiscountCalculator
+    public class DiscountCalculator2 : IDiscountCalculator
     {
         public double CalculateDiscount(Customer customer)
         {
