@@ -1,5 +1,6 @@
 using System;
 using FluentAssertions;
+using Moq;
 using Xunit;
 
 namespace RedStar.TddCourse.Tests
@@ -9,6 +10,7 @@ namespace RedStar.TddCourse.Tests
         private IDiscountCalculator GetDiscountCalculator()
         {
             //return new DiscountCalculator1();
+
             return new DiscountCalculator2();
         }
 
