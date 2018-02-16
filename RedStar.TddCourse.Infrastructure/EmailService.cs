@@ -1,4 +1,6 @@
-﻿namespace RedStar.TddCourse
+﻿using System;
+
+namespace RedStar.TddCourse.Infrastructure
 {
     public class EmailService : IEmailService
     {
