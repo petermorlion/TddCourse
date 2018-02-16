@@ -1,5 +1,6 @@
 ﻿using System;
 using Autofac;
+using RedStar.TddCourse.Discounts;
 using RedStar.TddCourse.Infrastructure;
 
 namespace RedStar.TddCourse.App

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RedStar.TddCourse
+namespace RedStar.TddCourse.Discounts
 {
     public class Customer
     {

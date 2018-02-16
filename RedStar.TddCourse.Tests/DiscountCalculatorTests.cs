@@ -1,6 +1,7 @@
 using System;
 using FluentAssertions;
 using Moq;
+using RedStar.TddCourse.Discounts;
 using Xunit;
 
 namespace RedStar.TddCourse.Tests

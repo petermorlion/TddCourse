@@ -1,4 +1,5 @@
 ﻿using System;
+using RedStar.TddCourse.Discounts;
 
 namespace RedStar.TddCourse.Infrastructure
 {

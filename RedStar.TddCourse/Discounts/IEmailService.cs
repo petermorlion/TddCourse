@@ -1,4 +1,4 @@
-﻿namespace RedStar.TddCourse
+﻿namespace RedStar.TddCourse.Discounts
 {
     public interface IEmailService
     {
