@@ -4,7 +4,7 @@ using Moq;
 using RedStar.TddCourse.Discounts;
 using Xunit;
 
-namespace RedStar.TddCourse.Tests
+namespace RedStar.TddCourse.Tests.Discounts
 {
     public class DiscountCalculatorTests
     {
