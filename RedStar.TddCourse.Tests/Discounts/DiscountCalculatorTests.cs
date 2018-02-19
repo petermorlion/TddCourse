@@ -1,20 +1,13 @@
 using System;
 using FluentAssertions;
-using Moq;
 using RedStar.TddCourse.Discounts;
+using RedStar.TddCourse.TestInfrastructure;
 using Xunit;
 
 namespace RedStar.TddCourse.Tests.Discounts
 {
     public class DiscountCalculatorTests
     {
-        private IDiscountCalculator GetDiscountCalculator()
-        {
-            //return new DiscountCalculator1();
-
-            return new DiscountCalculator2();
-        }
-
         [Fact]
         public void CalculateDiscount_ForGoldMemberOnBirthday_ShouldReturn40()
         {
@@ -24,7 +17,7 @@ namespace RedStar.TddCourse.Tests.Discounts
                 IsGoldMember = true
             };
 
-            var calculator = GetDiscountCalculator();
+            var calculator = new DiscountCalculatorFactory().Create();
 
             var discount = calculator.CalculateDiscount(customer);
 
@@ -40,7 +33,7 @@ namespace RedStar.TddCourse.Tests.Discounts
                 IsGoldMember = false
             };
 
-            var calculator = GetDiscountCalculator();
+            var calculator = new DiscountCalculatorFactory().Create();
 
             var discount = calculator.CalculateDiscount(customer);
 
@@ -56,7 +49,7 @@ namespace RedStar.TddCourse.Tests.Discounts
                 IsGoldMember = true
             };
 
-            var calculator = GetDiscountCalculator();
+            var calculator = new DiscountCalculatorFactory().Create();
 
             var discount = calculator.CalculateDiscount(customer);
 
@@ -73,7 +66,7 @@ namespace RedStar.TddCourse.Tests.Discounts
                 IsEmployee = true
             };
 
-            var calculator = GetDiscountCalculator();
+            var calculator = new DiscountCalculatorFactory().Create();
 
             var discount = calculator.CalculateDiscount(customer);
 
@@ -90,7 +83,7 @@ namespace RedStar.TddCourse.Tests.Discounts
                 IsEmployee = true
             };
 
-            var calculator = GetDiscountCalculator();
+            var calculator = new DiscountCalculatorFactory().Create();
 
             var discount = calculator.CalculateDiscount(customer);
 
@@ -107,7 +100,7 @@ namespace RedStar.TddCourse.Tests.Discounts
                 IsEmployee = false
             };
 
-            var calculator = GetDiscountCalculator();
+            var calculator = new DiscountCalculatorFactory().Create();
 
             var discount = calculator.CalculateDiscount(customer);
 
