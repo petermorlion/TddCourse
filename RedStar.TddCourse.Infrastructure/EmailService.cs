@@ -7,7 +7,7 @@ namespace RedStar.TddCourse.Infrastructure
     {
         public void SendEmail()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }
