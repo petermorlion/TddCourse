@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedStar.TddCourse.App", "Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedStar.TddCourse.Infrastructure", "RedStar.TddCourse.Infrastructure\RedStar.TddCourse.Infrastructure.csproj", "{EF41C97B-E006-4508-98C2-F7156F6ED3D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedStar.TddCourse.Naming", "RedStar.TddCourse.Naming\RedStar.TddCourse.Naming.csproj", "{574EBC53-DA55-461E-BB25-2E03D6D11F70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedStar.TddCourse.Naming", "RedStar.TddCourse.Naming\RedStar.TddCourse.Naming.csproj", "{574EBC53-DA55-461E-BB25-2E03D6D11F70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedStar.TddCourse.TestInfrastructure", "RedStar.TddCourse.TestInfrastructure\RedStar.TddCourse.TestInfrastructure.csproj", "{D7BB83EB-54D4-4007-87E5-30F706011956}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedStar.TddCourse.TestInfrastructure", "RedStar.TddCourse.TestInfrastructure\RedStar.TddCourse.TestInfrastructure.csproj", "{D7BB83EB-54D4-4007-87E5-30F706011956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedStar.TddCourse.Specs", "RedStar.TddCourse.Specs\RedStar.TddCourse.Specs.csproj", "{C601BEBE-0BA8-4B17-800A-9AADB22D0CFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D7BB83EB-54D4-4007-87E5-30F706011956}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7BB83EB-54D4-4007-87E5-30F706011956}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7BB83EB-54D4-4007-87E5-30F706011956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C601BEBE-0BA8-4B17-800A-9AADB22D0CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C601BEBE-0BA8-4B17-800A-9AADB22D0CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C601BEBE-0BA8-4B17-800A-9AADB22D0CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C601BEBE-0BA8-4B17-800A-9AADB22D0CFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
